@@ -11,252 +11,98 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">&#9776;</button>
+                <a href="index.html">Walawazy 
+                	<span style="color:green;">Col</span><span style="color:yellow;">lec</span><span style="color:red;">tions</span>
+                </a>
+        	</div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign In</a>                
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <button class="sidebar-close-btn" onclick="closeMenu()">x</button>
+            <ul>
+                <li><a href="index.html">Men's Wear</a></li>                
+                <li><a href="index.html">Ladies'  Wear</a></li>
+                <li><a href="index.html">Children</a></li>
+                <li><a href="index.html">Watches</a></li>
+                <li><a href="index.html">Sneackers</a></li>
+            </ul>
+        </aside>
+
+
 	
-	<div class="header">
-	<label>Walawazy <span style="color:green;">Col</span><span style="color:yellow;">lec</span><span style="color:red;">tions</span></label>
-	<nav>
-		<ul id="MenuItems">
-			<li><a href="#" class="active">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Feedback</a></li>
-			<i class="fas fa-shopping-cart"></i>
-		</ul>
-	</nav>	
-		<div class="container">
-			<div class="row">
-				<div class="col-2">
-					<h1>Give Your Look <br>A New Style!</h1>
-					<p>Success isn't always about greatness. It's about consistancy. Consistent hard work gains success. Greatness will come.</p>
-					<a href="" class="btn">Explore Now &#8594;</a>
-				</div>
-				<div class="col-2">
-					<img src="images/macca.png">
-				</div>
-			</div>
-		</div>
-	</div>
-	
-
-	<!-- ---------- features categories ----------- -->
-	 
-	 <div class="categories">
-	 	<div class="small-container">
-	 		<div class="row">
-	 		<div class="col-3">
-	 			<img src="images/1.png">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/2.png">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/3.jpg">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/4.jpg">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/cap.png">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/sneakers.png">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/snikers2.jpg">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/prd-3.jpg">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/idris3.png">
-	 		</div>
-	 		<div class="col-3">
-	 			<img src="images/yi.png">
-	 		</div>	
-	 		<div class="col-3">
-	 			<img src="images/suit2.jpg">
-	 		</div>	
-	 		<div class="col-3">
-	 			<img src="images/idris.png">
-	 		</div>		
-	 	</div>
-	 </div>
-	 </div>
-
-	 <!-- ---------- features products ----------- -->
-
-	 <div>
-	 	 <div class="small-container">
-	 	 	<h2 class="title">Featured Products</h2>
-	 	 	<div class="row">
-	 	 		<div class="col-4">
-	 	 			<img src="images/cat9.jpg">
-	 	 			<h4>Sport Short<br>blue & white color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 60.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/cat0.jpg">
-	 	 			<h4>Jersey<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star-half-alt"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 100.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/cat7.jpg">
-	 	 			<h4>short<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star-half-alt"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 150.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/cool.jpg">
-	 	 			<h4>short<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star-half-alt"></i>
-	 	 				<i class="fa fa-star-o"></i>
-	 	 			</div>
-	 	 			<p>GHS 80.00</p>
-	 	 		</div>	 	 		
-	 	 	</div>
-
-	 	 	<!-- ---------- latest products ----------- -->
-
-	 	 	 <h2 class="title">Latest Products</h2>
-	 	 	 <div class="row">
-	 	 		<div class="col-4">
-	 	 			<img src="images/category5.jpg">
-	 	 			<h4>ladies gym wear<br>different color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 60.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/fw0.png">
-	 	 			<h4>Nike Hijab<br> white color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star-half-alt"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 100.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/fw1.jpg">
-	 	 			<h4>Nike Hijab<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star-half-alt"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 150.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/5.jpg">
-	 	 			<h4>Nike Hijab<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star-half-alt"></i>
-	 	 				<i class="fa fa-star-o"></i>
-	 	 			</div>
-	 	 			<p>GHS 80.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/prd-6.jpg">
-	 	 			<h4>Nike Hijab<br>blue color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 60.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/prd-7.jpg">
-	 	 			<h4>Nike Hijab<br> white color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star"></i>
-	 	 				<i class="fas fa-star-half-alt"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 100.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/prd-5.jpg">
-	 	 			<h4>Nike Hijab<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star-half-alt"></i>
-	 	 				<i class="far fa-star"></i>
-	 	 			</div>
-	 	 			<p>GHS 150.00</p>
-	 	 		</div>
-
-	 	 		<div class="col-4">
-	 	 			<img src="images/nike.jpg">
-	 	 			<h4>Nike Hijab<br> black color</h4>
-	 	 			<div class="rating">
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star"></i>
-	 	 				<i class="fa fa-star-half-alt"></i>
-	 	 				<i class="fa fa-star-o"></i>
-	 	 			</div>
-	 	 			<p>GHS 80.00</p>
-	 	 		</div>	 	 	
-	 	 </div>
-	 </div>	 
-
+		<main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/products/men/1.jpg" alt="product">
+                            <div class="product-name"><a href="product.html"> Yellow Lagos</a></div>
+                            <div class="product-brand">Moderna</div>
+                            <div class="product-price">GHS120</div>
+                            <div class="product-rating">4.5 stars (3reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/products/men/1.png" alt="product">
+                            <div class="product-name"><a href="product.html"> Yellow Lagos</a></div>
+                            <div class="product-brand">Moderna</div>
+                            <div class="product-price">GHS120</div>
+                            <div class="product-rating">4.5 stars (3reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/products/men/prod3.jpg" alt="product">
+                            <div class="product-name"><a href="product.html"> Yellow Lagos</a></div>
+                            <div class="product-brand">Moderna</div>
+                            <div class="product-price">GHS120</div>
+                            <div class="product-rating">4.5 stars (3reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/products/ladies/prd-6.jpg" alt="product">
+                            <div class="product-name"><a href="product.html"> Yellow Lagos</a></div>
+                            <div class="product-brand">Moderna</div>
+                            <div class="product-price">GHS120</div>
+                            <div class="product-rating">4.5 stars (3 reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/products/men/prod2.jpg" alt="product">
+                            <div class="product-name"><a href="product.html"> Yellow Lagos</a></div>
+                            <div class="product-brand">Moderna</div>
+                            <div class="product-price">GHS120</div>
+                            <div class="product-rating">4.5 stars (3reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/products/men/4.jpg" alt="product">
+                            <div class="product-name"><a href="product.html"> Yellow Lagos</a></div>
+                            <div class="product-brand">Moderna</div>
+                            <div class="product-price">GHS120</div>
+                            <div class="product-rating">4.5 stars (3reviews)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </main>
 	 <!-- ---------- offer ----------- -->
 
-	 <div class="offer">
+	 <!-- <div class="offer">
 	 	<div class="small-container">
 	 		<div class="row">
 	 			<div class="col-2">
@@ -271,11 +117,11 @@
 	 			</div>
 	 		</div>
 	 	</div>
-	 </div>
+	 </div> -->
 
 	 <!-- ---------- testimonials ----------- -->
 
-	 <div class="testi">
+	 <<!-- div class="testi">
 	 	<h4>What Our Customers Say About Us</h4>
 	 	<div class="small-container">
 	 		<div class="row">
@@ -333,11 +179,11 @@
 
 	 		</div>
 	 	</div>
-	 </div>
+	 </div> -->
 
 	 <!------------------------ brands --------------------->
 
-	 <div class="brands">
+	 <!-- <div class="brands">
 	 	<h4>The World Biggest Brand You Can Find With Us</h4>
 	 	<div class="small-container">
 	 		<div class="row">
@@ -348,63 +194,23 @@
 	 			</div>
 	 		</div>
 	 	</div>
-	 </div>
+	 </div> -->
 
+	 <footer class="footer">
+            Copyright 2021 - Design by Idris Yakubu
+     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="footer-col-1">
-				<h3>Download Our App</h3>
-				<p>Download App for Android and ios mobile phone</p>
-				<div class="app-logo">
-					<img src="images/ps.png">
-					<img src="images/as.png">
-				</div>
-			</div>
-			<div class="footer-col-2">
-				<img src="images/logo_1.png" alt="">
-				<p>At walawaazy collections you shop everything at cool price.</p>
-			</div>
-			<div class="footer-col-3">
-				<h3>Useful Links</h3>
-				<ul>
-					<li>New Products</li>
-					<li>Latest Products</li>
-					<li>Features Products</li>
-					<li>Return Policy</li>
-					<li>Join Affiliate</li>
-				</ul>
-			</div>
-
-			<div class="footer-col-4">
-				<h3>Follow us</h3>
-				<ul>
-					<li>Facebook | <a href=""><i class="fab fa-facebook"></i></a></li>
-					<li>Twitter | <a href=""><i class="fab fa-twitter"></i></a></li>
-					<li>Instagram | <a href=""><i class="fab fa-instagram"></i></a></li>
-					<li>Linkedin | <a href=""><i class="fab fa-linkedin"></i></a></li>
-					<li>Youtube | <a href=""><i class="fab fa-youtube"></i></a></li>
-				</ul>
-			</div>
-		</div>
-		</div>
-		<hr>
-		<p class="copy">Copyright 2021 - Design by Idris Yackson</p>
-	</div>
 </div>
 
+
+<script>
+        function openMenu(){
+            document.querySelector(".sidebar").classList.add("open")
+        }
+        function closeMenu(){
+            document.querySelector(".sidebar").classList.remove("open")
+        }
+</script>
 <!-- ---------------js for toggle menu------------------------- -->
 <script src="https://kit.fontawesome.com/42eca43062.js" crossorigin="anonymous"></script>
 <script src="app.js" type="text/javascript"></script>
